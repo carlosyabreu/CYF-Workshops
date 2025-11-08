@@ -1,3 +1,6 @@
+import header from "header.js";
+import main from "main.js";
+
 //increments the number in a node's text
 function increment(node) {
   let current = node.textContent;
