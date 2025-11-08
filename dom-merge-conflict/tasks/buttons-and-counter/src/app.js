@@ -1,5 +1,5 @@
-import header from "header.js";
-import main from "main.js";
+import {header} from "./header.js";
+import {main} from "./main.js";
 
 //increments the number in a node's text
 function increment(node) {
@@ -11,7 +11,6 @@ export function App() {
   const body = document.createElement("body");
 
   body.appendChild(header);
-
   body.appendChild(main);
 
   const button = body.querySelector("#increment");
